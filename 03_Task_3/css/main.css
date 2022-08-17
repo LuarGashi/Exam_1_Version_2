@@ -1,0 +1,111 @@
+.box-1 {
+  background-color: green;
+  min-height: 100px;
+}
+
+.box-2 {
+  background-color: yellow;
+  min-height: 100px;
+}
+
+.box-3 {
+  background-color: yellowgreen;
+  min-height: 100px;
+}
+
+.box-4 {
+  background-color: tomato;
+  min-height: 100px;
+}
+
+.box-5 {
+  background-color: cornflowerblue;
+  min-height: 100px;
+}
+
+.box-6 {
+  background-color: darkorange;
+  min-height: 100px;
+}
+
+.box-7 {
+  background-color: darkgoldenrod;
+  min-height: 100px;
+}
+
+.box-8 {
+  background-color: skyblue;
+  min-height: 100px;
+}
+
+.col-1 {
+  width: 12.5%;
+  min-height: 100px;
+  padding: 0;
+  text-align: center;
+}
+
+.col-2 {
+  width: 25%;
+  min-height: 100px;
+  padding: 0;
+  text-align: center;
+}
+
+.col-3 {
+  width: 37.5%;
+  min-height: 100px;
+  padding: 0;
+  text-align: center;
+}
+
+.col-4 {
+  width: 50%;
+  min-height: 100px;
+  padding: 0;
+  text-align: center;
+}
+
+.col-5 {
+  width: 62.5%;
+  min-height: 100px;
+  padding: 0;
+  text-align: center;
+}
+
+.col-6 {
+  width: 75%;
+  min-height: 100px;
+  padding: 0;
+  text-align: center;
+}
+
+.col-7 {
+  width: 87.5%;
+  min-height: 100px;
+  padding: 0;
+  text-align: center;
+}
+
+.col-8 {
+  width: 100%;
+  min-height: 100px;
+  padding: 0;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.green-box,
+.orange-box,
+.blue-box {
+  height: 200px;
+}

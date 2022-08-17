@@ -1,0 +1,49 @@
+$color: #263959;
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.page-header {
+  background-color: $color;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .main-nav {
+        &-list {
+                list-style-type: none;
+                display: flex;
+                margin: 0;
+                padding: 0;
+    }
+
+    li {
+      a {
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+        padding: 20px 30px;
+      }
+    }
+  }
+}
+
+.page-main {
+  .container {
+    margin-top: 30px;
+    .row {
+      display: flex;
+      .col-4-12 {
+        padding: 15px;
+          .box {
+            width: 100%;
+            img {
+              width: 100%;
+            }
+          }
+      }
+    }
+  }
+}

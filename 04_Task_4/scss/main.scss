@@ -1,0 +1,12 @@
+@mixin responsiveImage($image-width, $image-height) {
+	background-size: cover;
+	height: 0;
+	padding-bottom: percentage(calc($image-height / $image-width));
+	display: block;
+	position: relative;
+}
+
+.sea {
+	background-image: url('../images/sea.jpg');
+	@include responsiveImage(1920px, 1080px);
+}

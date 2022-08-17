@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.page-header {
+  background-color: #263959;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.page-header .main-nav-list {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.page-header .main-nav li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 20px 30px;
+}
+
+.page-main .container {
+  margin-top: 30px;
+}
+.page-main .container .row {
+  display: flex;
+}
+.page-main .container .row .col-4-12 {
+  padding: 15px;
+}
+.page-main .container .row .col-4-12 .box {
+  width: 100%;
+}
+.page-main .container .row .col-4-12 .box img {
+  width: 100%;
+}

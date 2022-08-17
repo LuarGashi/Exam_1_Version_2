@@ -1,0 +1,8 @@
+.sea {
+  background-image: url("../images/sea.jpg");
+  background-size: cover;
+  height: 0;
+  padding-bottom: 56.25%;
+  display: block;
+  position: relative;
+}

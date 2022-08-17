@@ -1,0 +1,35 @@
+@use 'sass:list';
+
+$colors: green, yellow, yellowgreen, tomato, cornflowerblue, darkorange, darkgoldenrod, skyblue;
+@for $i from 1 through list.length($colors) {
+  .box-#{$i} {
+    background-color: list.nth($colors, $i);
+    min-height: 100px;
+  }
+}
+
+@for $i from 1 through 8 {
+	.col-#{$i} {
+		width: 12.5% * $i;
+		min-height: 100px;
+		padding: 0;
+		text-align: center;
+	}
+}
+
+.row {
+	display: flex;
+}
+
+.container {
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.green-box,
+.orange-box,
+.blue-box {
+	height: 200px;
+}
+
